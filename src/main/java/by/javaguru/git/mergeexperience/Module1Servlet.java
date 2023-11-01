@@ -31,7 +31,8 @@ public class Module1Servlet extends HttpServlet {
                     + "</td></tr>");
 
         out.println("</table>");
-
+        out.println("<input type=\"button\" value=\"<- \" />");
+        out.println("<input type=\"button\" value=\" ->\" />");
         out.println("</body></html>");
     }
 
